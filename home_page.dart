@@ -58,6 +58,7 @@ class _HomePageState extends State<HomePage>{
 
 
               IconButton(
+                splashColor: Colors.red,
                 onPressed:torch,
                 icon: _iconTorchState,
                 iconSize: 50,
