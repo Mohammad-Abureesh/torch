@@ -57,14 +57,10 @@ class _HomePageState extends State<HomePage>{
               SizedBox(height: 20,),
 
 
-              RaisedButton(
+              IconButton(
                 onPressed:torch,
-                splashColor: Colors.red,
-                child:  Image(
-                  image:AssetImage('lib/icons/flashlight.png'),
-                ),
-                //icon: _iconTorchState,
-                //iconSize: 50,
+                icon: _iconTorchState,
+                iconSize: 50,
               ),
             ],
           ),
