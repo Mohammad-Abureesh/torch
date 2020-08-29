@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
+    // To force application stay in portrait mode
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
       DeviceOrientation.portraitDown
